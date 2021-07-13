@@ -1,4 +1,4 @@
-package com.selenium.locator.css;
+package com.selenium.locator;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class NameExample {
+public class ClassNameExample {
     public static void main(String[] args) {
         // Step1: setup driver
         WebDriverManager.chromedriver().setup();
@@ -17,10 +17,10 @@ public class NameExample {
         // step 3: invoke get method
         driver.get("https://www.amazon.com");
 
-        // step 4: find element by form input name (input is part of form element)
-        WebElement email = driver.findElement(By.name("field-keywords"));
+        // step 4: find element by className
+        WebElement webElement = driver.findElement(By.className("nav-line-1"));
 
-        System.out.println("Id for element field-keywords: " + email.getTagName());
+        System.out.println("Value for element nav-line-1 nav-progressive-content: " + webElement.getText());
 
         // step 5: close the driver (think like stop the car)
         driver.close();

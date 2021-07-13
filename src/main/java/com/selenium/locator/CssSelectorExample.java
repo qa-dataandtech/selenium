@@ -1,4 +1,4 @@
-package com.selenium.locator.css;
+package com.selenium.locator;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class IdExample {
+public class CssSelectorExample {
     public static void main(String[] args) {
         // Step1: setup driver
         WebDriverManager.chromedriver().setup();
@@ -17,10 +17,10 @@ public class IdExample {
         // step 3: invoke get method
         driver.get("https://www.amazon.com");
 
-        // step 4: find element by Id
-        WebElement email = driver.findElement(By.id("glow-ingress-line1"));
+        // step 4: find element by css selector
+        WebElement inputField = driver.findElement(By.cssSelector("input[name='field-keywords'"));
 
-        System.out.println("Value for element glow-ingress-line1: " + email.getText());
+        System.out.println("Value for element nav-line-1 nav-progressive-content: " + inputField.getTagName());
 
         // step 5: close the driver (think like stop the car)
         driver.close();

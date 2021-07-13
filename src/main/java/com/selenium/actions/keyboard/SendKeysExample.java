@@ -1,4 +1,4 @@
-package com.selenium.locator.css;
+package com.selenium.actions.keyboard;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CssSelectorExample {
-    public static void main(String[] args) {
+public class SendKeysExample {
+    public static void main(String[] args) throws InterruptedException {
         // Step1: setup driver
         WebDriverManager.chromedriver().setup();
 
@@ -17,12 +17,16 @@ public class CssSelectorExample {
         // step 3: invoke get method
         driver.get("https://www.amazon.com");
 
-        // step 4: find element by css selector
-        WebElement email = driver.findElement(By.cssSelector("input[name='field-keywords'"));
+        // step 4: find element by form input name (input is part of form element)
+        WebElement searchBox = driver.findElement(By.name("field-keywords"));
 
-        System.out.println("Value for element nav-line-1 nav-progressive-content: " + email.getTagName());
+        // Step 5: put book on the search box
+        searchBox.sendKeys("book");
 
-        // step 5: close the driver (think like stop the car)
+        // sleep for 1000 miliseconds
+        Thread.sleep(2000);
+
+        // step 6: close the driver (think like stop the car)
         driver.close();
     }
 }

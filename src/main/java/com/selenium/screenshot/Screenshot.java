@@ -1,4 +1,4 @@
-package com.selenium;
+package com.selenium.screenshot;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;

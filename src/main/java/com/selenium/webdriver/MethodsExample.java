@@ -1,4 +1,4 @@
-package com.selenium.locator.webdriver;
+package com.selenium.webdriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

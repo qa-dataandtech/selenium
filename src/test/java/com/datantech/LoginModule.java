@@ -2,7 +2,7 @@ package com.datantech;
 
 import org.testng.annotations.Test;
 
-public class Login {
+public class LoginModule {
 
     @Test
     public void test1() {

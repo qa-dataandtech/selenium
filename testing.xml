@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="DataNtechTestSuit" parallel="false">
+    <test name="Homepage Module">
+        <classes>
+            <class name="com.datantech.homepage.RequiredSection"></class>
+            <class name="com.datantech.homepage.ModuleTitleTest"></class>
+        </classes>
+    </test>
 
     <test name="Registration Module">
         <classes>
-            <class name="com.datantech.Registration"></class>
+            <class name="com.datantech.RegistrationModule"></class>
         </classes>
     </test>
 
     <test name="Login Module">
         <classes>
-            <class name="com.datantech.Login"></class>
+            <class name="com.datantech.LoginModule"></class>
         </classes>
     </test>
 
     <test name="Contact Module">
         <classes>
-            <class name="com.datantech.Contact"></class>
+            <class name="com.datantech.ContactModule"></class>
         </classes>
     </test>
 
     <test name="Gallery Module">
         <classes>
-            <class name="com.datantech.Gallery"></class>
-        </classes>
-    </test>
-
-    <test name="Homepage Module">
-        <classes>
-            <class name="com.datantech.homepage.RequiredSection"></class>
-            <class name="com.datantech.homepage.ModuleTitleTest"></class>
+            <class name="com.datantech.GalleryModule"></class>
         </classes>
     </test>
 </suite>

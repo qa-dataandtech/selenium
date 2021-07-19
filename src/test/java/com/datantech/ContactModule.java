@@ -2,7 +2,7 @@ package com.datantech;
 
 import org.testng.annotations.Test;
 
-public class Contact {
+public class ContactModule {
     @Test
     public void test1() {
         System.out.println("Contact test 1");

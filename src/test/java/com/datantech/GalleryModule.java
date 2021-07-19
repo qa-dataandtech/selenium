@@ -2,15 +2,15 @@ package com.datantech;
 
 import org.testng.annotations.Test;
 
-public class Registration {
+public class GalleryModule {
 
     @Test
     public void test1() {
-        System.out.println("Registration test 1");
+        System.out.println("Gallery test 1");
     }
 
     @Test
     public void test2() {
-        System.out.println("Registration test 2");
+        System.out.println("Gallery test 2");
     }
 }

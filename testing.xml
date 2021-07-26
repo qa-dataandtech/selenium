@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="DataNtechTestSuit" parallel="false">
+    <listeners>
+        <listener class-name="com.datantech.itestlistener.TestListener" />
+    </listeners>
+
+
+    <test name="take image example module">
+        <classes>
+            <class name="com.datantech.itestlistener.ITestListenerExample"></class>
+        </classes>
+    </test>
+
     <test name="Homepage Module">
         <classes>
             <class name="com.datantech.homepage.RequiredSection"></class>

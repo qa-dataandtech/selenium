@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="DataNtechTestSuit" parallel="false">
-    <listeners>
-        <listener class-name="com.datantech.itestlistener.TestListener" />
-    </listeners>
+<!--    <listeners>-->
+<!--        <listener class-name="com.datantech.itestlistener.TestListener" />-->
+<!--    </listeners>-->
 
-
-    <test name="take image example module">
-        <classes>
-            <class name="com.datantech.itestlistener.ITestListenerExample"></class>
-        </classes>
-    </test>
+<!--    <test name="take image example module">-->
+<!--        <classes>-->
+<!--            <class name="com.datantech.itestlistener.ITestListenerExample" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="Homepage Module">
         <classes>
-            <class name="com.datantech.homepage.RequiredSection"></class>
-            <class name="com.datantech.homepage.ModuleTitleTest"></class>
+            <class name="com.datantech.homepage.ModuleTitleTest"/>
+            <class name="com.datantech.homepage.RequiredSection"/>
         </classes>
     </test>
 
     <test name="Registration Module">
         <classes>
-            <class name="com.datantech.RegistrationModule"></class>
+            <class name="com.datantech.RegistrationModule"/>
         </classes>
     </test>
 
     <test name="Login Module">
         <classes>
-            <class name="com.datantech.LoginModule"></class>
+            <class name="com.datantech.LoginModule"/>
         </classes>
     </test>
 
     <test name="Contact Module">
         <classes>
-            <class name="com.datantech.ContactModule"></class>
+            <class name="com.datantech.ContactModule"/>
         </classes>
     </test>
 
     <test name="Gallery Module">
         <classes>
-            <class name="com.datantech.GalleryModule"></class>
+            <class name="com.datantech.GalleryModule"/>
         </classes>
     </test>
 </suite>

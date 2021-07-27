@@ -34,7 +34,7 @@ public class TestListener extends BaseTest implements ITestListener {
 
         //Move image file to new destination
 
-        File DestFile=new File("/Users/r3turn0/Desktop/" + iTestResult.getName().toString()+".jpg");
+        File DestFile=new File("/Users/r3turn0/Documents/QA-TRAINING/selenium/test-output/" + iTestResult.getName().toString()+".jpg");
 
         //Copy file at destination
 

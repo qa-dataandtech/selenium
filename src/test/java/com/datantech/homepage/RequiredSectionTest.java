@@ -8,7 +8,7 @@ public class RequiredSectionTest {
         System.out.println("RequiredSection test 1");
     }
 
-    @Test
+    @Test(groups = "regression")
     public void test2() {
         System.out.println("RequiredSection test 2");
     }

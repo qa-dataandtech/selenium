@@ -19,7 +19,7 @@ public class ModuleTitleTest {
         System.out.println("ModuleTitleTest test 3");
     }
 
-    @Test
+    @Test(groups = "regression")
     public void test4() {
         System.out.println("ModuleTitleTest test 4");
     }

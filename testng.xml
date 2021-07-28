@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="DataNtechTestSuit" parallel="false">
     <listeners>
         <listener class-name="com.datantech.itestlistener.TestListener" />
@@ -12,32 +13,32 @@
 
     <test name="Homepage Module">
         <classes>
-            <class name="com.datantech.homepage.ModuleTitleTest"/>
-            <class name="com.datantech.homepage.RequiredSection"/>
+            <class name="com.datantech.homepage.ModuleTitleTest" />
+            <class name="com.datantech.homepage.RequiredSectionTest" />
         </classes>
     </test>
 
     <test name="Registration Module">
         <classes>
-            <class name="com.datantech.RegistrationModule"/>
+            <class name="com.datantech.RegistrationModuleTest"/>
         </classes>
     </test>
 
     <test name="Login Module">
         <classes>
-            <class name="com.datantech.LoginModule"/>
+            <class name="com.datantech.LoginModuleTest"/>
         </classes>
     </test>
 
     <test name="Contact Module">
         <classes>
-            <class name="com.datantech.ContactModule"/>
+            <class name="com.datantech.ContactModuleTest"/>
         </classes>
     </test>
 
     <test name="Gallery Module">
         <classes>
-            <class name="com.datantech.GalleryModule"/>
+            <class name="com.datantech.GalleryModuleTest"/>
         </classes>
     </test>
 </suite>

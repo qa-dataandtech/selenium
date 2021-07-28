@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class PriorityExample {
+public class PriorityExampleTest {
     public String baseUrl = "https://www.google.com/";
     public WebDriver driver ;
     @BeforeTest

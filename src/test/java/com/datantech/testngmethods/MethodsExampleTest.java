@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class MethodsExample {
+public class MethodsExampleTest {
     public String baseUrl = "https://www.amamzon.com/";
     public WebDriver driver ;
 
@@ -40,5 +40,6 @@ public class MethodsExample {
     @AfterTest
     public void terminateBrowser(){
         driver.close();
+        driver.quit();
     }
 }

@@ -2,7 +2,7 @@ package com.datantech.homepage;
 
 import org.testng.annotations.Test;
 
-public class RequiredSection {
+public class RequiredSectionTest {
     @Test
     public void test1() {
         System.out.println("RequiredSection test 1");

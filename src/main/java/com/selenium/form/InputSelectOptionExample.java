@@ -20,7 +20,8 @@ public class InputSelectOptionExample {
 
         // click on html radio button
         Select drpCountry = new Select(driver.findElement(By.name("country")));
-        drpCountry.selectByVisibleText("ANTARCTICA");
+
+        drpCountry.selectByVisibleText("TURKEY");
 
         Thread.sleep(1000);
 

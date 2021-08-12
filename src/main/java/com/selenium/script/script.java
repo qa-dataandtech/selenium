@@ -40,7 +40,7 @@ public class script {
         driver.findElement(By.name("postalCode")).sendKeys("22015");
         Thread.sleep(1000);
 
-        // click on html radio button
+        // click on html drop down
         Select drpCountry = new Select(driver.findElement(By.name("country")));
         drpCountry.selectByVisibleText("ANTARCTICA");
 
@@ -53,7 +53,6 @@ public class script {
         driver.findElement(By.name("confirmPassword")).sendKeys("smith0001");
         Thread.sleep(1000);
 
-        Thread.sleep(1000);
 
         driver.findElement(By.name("submit")).submit();
 

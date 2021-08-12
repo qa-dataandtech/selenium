@@ -21,10 +21,11 @@ public class InputCheckBoxMultipleExample {
         Thread.sleep(1000);
 
         // find all checkbox
-        final List<WebElement> elements = driver.findElements(By.cssSelector("input[type='checkbox']"));
+        List<WebElement> elements = driver.findElements(By.cssSelector("input[type='checkbox']"));
 
         // loop over all checkbox and click them
         for(WebElement element: elements) {
+            Thread.sleep(1000);
             element.click();
         }
 

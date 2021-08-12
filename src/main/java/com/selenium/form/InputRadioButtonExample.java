@@ -15,8 +15,6 @@ public class InputRadioButtonExample {
         // step 3: invoke get method
         driver.get("http://demo.guru99.com/test/radio.html");
 
-        Thread.sleep(1000);
-
         // click on html radio button
         driver.findElement(By.id("vfb-7-1")).click();
 

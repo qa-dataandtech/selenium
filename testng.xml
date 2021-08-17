@@ -13,7 +13,7 @@
 
     <test name="Homepage Module">
         <classes>
-            <class name="com.datantech.homepage.ModuleTitleTest" />
+<!--            <class name="com.datantech.homepage.ModuleTitleTest" />-->
             <class name="com.datantech.homepage.RequiredSectionTest" />
         </classes>
     </test>

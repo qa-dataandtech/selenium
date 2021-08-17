@@ -5,7 +5,7 @@ import org.testng.Assert;
 
 import org.testng.annotations.Test;
 
-public class ITestListenerExample extends BaseTest{
+public class ITestListenerExample extends BaseTest {
 
     @Test
     public void testLogin() {

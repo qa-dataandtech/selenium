@@ -1,27 +1,26 @@
 package com.datantech.homepage;
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class ModuleTitleTest {
     @Test
     public void test1() {
-        System.out.println("ModuleTitleTest test 1");
-    }
 
-    @Test
-    public void test2() {
-        System.out.println("ModuleTitleTest test 2");
-    }
+        // find the driver and use that
+        WebDriverManager.chromedriver().setup();
 
-    @Test
-    public void test3() {
-        System.out.println("ModuleTitleTest test 3");
-    }
+        // step 2: create driver instance
+        WebDriver driver = new ChromeDriver();
 
-    @Test(groups = "regression")
-    public void test4() {
-        System.out.println("ModuleTitleTest test 4");
-    }
+        // step 3: invoke get method
+        driver.get("https://www.datantech.com");
 
+
+        // close browser
+        driver.close();
+    }
 }

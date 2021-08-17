@@ -24,21 +24,21 @@
         </classes>
     </test>
 
-    <test name="Login Module">
-        <classes>
-            <class name="com.datantech.LoginModuleTest"/>
-        </classes>
-    </test>
+<!--    <test name="Login Module">-->
+<!--        <classes>-->
+<!--            <class name="com.datantech.LoginModuleTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="Contact Module">
-        <classes>
-            <class name="com.datantech.ContactModuleTest"/>
-        </classes>
-    </test>
+<!--    <test name="Contact Module">-->
+<!--        <classes>-->
+<!--            <class name="com.datantech.ContactModuleTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="Gallery Module">
-        <classes>
-            <class name="com.datantech.GalleryModuleTest"/>
-        </classes>
-    </test>
+<!--    <test name="Gallery Module">-->
+<!--        <classes>-->
+<!--            <class name="com.datantech.GalleryModuleTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

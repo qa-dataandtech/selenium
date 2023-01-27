@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DataNtechTestSuit" parallel="false">
+    <groups>
+        <run>
+            <include name="testxxx"> </include>
+        </run>
+    </groups>
+    <test name="Homepage Module">
+        <classes>
+            <class name="com.datantech.group.GroupExample" />
+        </classes>
+    </test>
+</suite>
